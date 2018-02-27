@@ -1,7 +1,6 @@
 #ifndef Rezz
 #define Rezz
 #include <stdlib.h>
-#include <stdio.h>
 #include <stdarg.h>
 #include <unistd.h>
 #include <string.h>
