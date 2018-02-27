@@ -1,6 +1,19 @@
 #include "holberton.h"
 
 /**
+ * _strlen - length of string
+ *
+ */
+int _strlen(char *s)
+{
+	int m;
+
+	for (m = 0; s[m] != '\0'; m++)
+		return (m);
+}
+
+
+/**
  * _printchar - prints character
  * @gas: va_list
  * Return: return length
@@ -29,13 +42,7 @@ int _printstring(va_list gas)
 	if (g == NULL)
 		return (-1);
 
-	a = strlen(g);
+	a = _strlen(g);
 	write(1, g, a);
 	return (a);
 }
-
-ope t_format[] = {
-	{"c", _printchar},
-	{"s", _printstring},
-	{NULL, NULL}
-};
