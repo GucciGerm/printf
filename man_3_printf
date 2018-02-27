@@ -1,17 +1,13 @@
-.TH man 3 "Feb 2, 2018" "0.32" "print_f"
+.TH man 1 "Feb 27, 2018" "0.32" "_printf"
 .SH NAME
-.B Printf
-- become a full-stack software engineer.
+.B _printf
 .SH SYNOPSIS
-holberton [STUDENTNAME]
+_printf [format][arguments]
 .SH DESCRIPTION
-Holberton School is a project-based alternative to college for the next generation of software engineers.
-.SH OPTIONS
-.B holberton
+Our code will format a string based on which arguments are being passed
+.SH ARGUMENTS
+[%c] - _printchar: This argument will print a character from our two element options
+[%s] - _printstring: This argument will print a string from our two element options
 does not take any options. However, you can supply studentname.
-.SH SEE ALSO
-.I peerlearning(2), projectbased(2), fullstack(2), Betty(1)
-.SH BUGS
-No known bugs.
 .SH AUTHOR
-Julien Barbier, Sylvain Kalache, Sophie Barbier, Guillaume Salva, Kris Bredemeier, Julien Cyr, Alex Gautier and all the Holberton mentors
+Adriel Tolentino & Germaine Balmania
