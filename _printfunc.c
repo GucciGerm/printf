@@ -42,7 +42,10 @@ int _printstring(va_list gas)
 	g = va_arg(gas, char *);
 
 	if (g == NULL)
+	{
+		write(1, "(null)", 6);
 		return (-1);
+	}
 
 	a = _strlen(g);
 	write(1, g, a);
