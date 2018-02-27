@@ -12,7 +12,7 @@ int _printf(const char *format, ...)
 	int c, b, tmp, count_ch = 0;
 	va_list _arg;
 	ope t_format[] = {
- 		{"c", _printchar},
+		{"c", _printchar},
 		{"s", _printstring},
 		{NULL, NULL}
 	};
