@@ -7,6 +7,7 @@ _printf [format][arguments]
 Our code will format a string based on which arguments are being passed
 .SH ARGUMENTS
 [%c] - _printchar: This argument will print a character from our two element options
+
 [%s] - _printstring: This argument will print a string from our two element options
 does not take any options. However, you can supply studentname.
 .SH AUTHOR
